@@ -1,0 +1,35 @@
+.ctNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 92px;
+    background-color: var(--main-color);
+    padding: 0px 40px;
+    box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
+    -webkit-box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
+    -moz-box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
+}
+
+.imgLogo {
+    width: auto;
+    height: 67px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.aActive {
+    color: var(--white-color);
+    font-weight: bold;
+    border-bottom: 3px solid var(--white-color);
+    line-height: 25px;
+}
+
+.aNoActive {
+    color: var(--white-color);
+}

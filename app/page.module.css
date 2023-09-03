@@ -33,6 +33,7 @@
 .imgMain {
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 
 .ctDate {
@@ -100,7 +101,7 @@
         align-self: center;
     }
     .ctDateM {
-        width: 70%;
+        width: 80%;
     }
     .ctUniv {
         width: 100%;

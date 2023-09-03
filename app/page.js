@@ -4,6 +4,7 @@ import coloquio from '../public/img/mainImage.jpg'
 import logo from '../public/img/logo.png'
 import Universities from './components/universities'
 import Dates from './components/dates'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,12 +15,14 @@ export default function Home() {
         alt='logo de PHI Ecuador'
         className={styles.imgLogo}
       />
-      <Image 
-        src={coloquio}
-        alt='Coloquio Geomateriales y Patrimonio arquitectónico en Ecuador'
-        sizes="100vw"
-        className={styles.imgMain}
-      />
+      <Link href='/phi' className={styles.imgMain}>
+        <Image 
+          src={coloquio}
+          alt='Coloquio Geomateriales y Patrimonio arquitectónico en Ecuador'
+          sizes="100vw"
+          className={styles.imgMain}
+        />
+      </Link>
       <Dates/>
     </main>
   )

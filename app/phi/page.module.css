@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+}
+
+.h2 {
+    font-size: 40px;
+    border-bottom: 5px solid var(--main-color);
+    font-weight: bold;
+}
+
+.ctText {
+    padding: 50px 100px 0px 100px;
+    text-align: justify;
+}
+
+.ctUniversities {
+    margin-top: 3%;
+}
+
+.ctUni {
+    padding: 20px 100px 0px 100px;
+    text-align: justify;
+}
+
+.h3,
+.h4 {
+    font-size: 25px;
+    margin: 2% 0%;
+}
+
+.h5 {
+    font-size: 20px;
+}
