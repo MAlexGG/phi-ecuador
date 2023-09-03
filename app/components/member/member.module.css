@@ -1,0 +1,34 @@
+.ctMember {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.ctImg {
+    width: auto;
+    height: 170px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.imgMember {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ctText {
+    width: 75%;
+    padding-left: 2%;
+    text-align: justify;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aLink {
+    font-weight: 900;
+    text-decoration: underline;
+}
