@@ -9,6 +9,7 @@
     font-size: 40px;
     border-bottom: 5px solid var(--main-color);
     font-weight: bold;
+    margin-top: 92px;
 }
 
 .ctText {
@@ -33,4 +34,33 @@
 
 .h5 {
     font-size: 20px;
+}
+
+.aUp {
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+    .h2 {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main {
+        align-items: center;
+    }
+    .h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .ctText {
+        padding: 50px 10px 0px 10px;
+    }
+    .ctUni {
+        padding: 20px 10px 0px 10px;
+    }
+    .ctUniversities {
+        margin-top: 50px;
+    }
 }

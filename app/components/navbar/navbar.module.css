@@ -9,6 +9,7 @@
     box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
     -webkit-box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
     -moz-box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
+    position: fixed;
 }
 
 .imgLogo {
@@ -32,4 +33,10 @@
 
 .aNoActive {
     color: var(--white-color);
+}
+
+@media screen and (max-width: 992px) {
+    .ctNavbar {
+        display: none;
+    }
 }
