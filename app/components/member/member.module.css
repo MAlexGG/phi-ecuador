@@ -32,3 +32,20 @@
     font-weight: 900;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 576px) {
+    .ctMember {
+        flex-direction: column;
+        border-bottom: 1px solid var(--main-color);
+        padding: 15px 0px;
+    }
+    .ctText {
+        width: 100%;
+        height: auto;
+    }
+    .ctText h3,
+    .ctText p,
+    .ctText a {
+        padding: 10px 0px;
+    }
+}
