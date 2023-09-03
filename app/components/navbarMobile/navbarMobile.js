@@ -19,11 +19,13 @@ export default function NavbarMobile() {
   return (
     <div className={styles.ctNavbarMobile}>
         <nav className={styles.nav}>
-            <Image
-                src={logo}
-                alt='logo Red PHI Ecuador'
-                className={styles.imgLogo}
-            />
+            <Link href='/'>
+                <Image
+                    src={logo}
+                    alt='logo Red PHI Ecuador'
+                    className={styles.imgLogo}
+                />
+            </Link>
             <button onClick={handleClick} className={styles.btMenu}>
                 <Image
                     src={menu}

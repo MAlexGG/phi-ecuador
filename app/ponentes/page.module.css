@@ -12,6 +12,14 @@
     margin-top: 92px;
 }
 
+.ctMembers {
+    margin: 30px 0px;
+}
+
+.aUp {
+    align-self: flex-end;
+}
+
 @media screen and (max-width: 992px) {
     .h2 {
         margin-top: 0px;

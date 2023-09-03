@@ -1,0 +1,58 @@
+.ctMember {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.ctImg {
+    width: auto;
+    height: 170px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgMember {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ctText {
+    width: 75%;
+    padding-right: 2%;
+    text-align: justify;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aLink {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.imgFlag {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+@media screen and (max-width: 576px) {
+    .ctMember {
+        flex-direction: column-reverse;
+        border-bottom: 1px solid var(--main-color);
+        padding: 15px 0px;
+    }
+    .ctText {
+        width: 100%;
+        height: auto;
+    }
+    .ctText h3,
+    .ctText p,
+    .ctText a {
+        padding: 10px 0px;
+    }
+}
