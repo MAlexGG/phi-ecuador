@@ -1,11 +1,16 @@
 import Navbar from '../components/navbar/navbar'
-import styles from '../page.module.css'
+import NavbarMobile from '../components/navbarMobile/navbarMobile'
+import styles from './page.module.css'
 
 export default function Team() {
   return (
+    <>
+    <Navbar/>
+    <NavbarMobile/>
     <main className={styles.main}>
-        <Navbar/>
-        Equipo
+      <h2 className={styles.h2}>EQUIPO</h2>
+        
     </main>
+    </>
   )
 }
