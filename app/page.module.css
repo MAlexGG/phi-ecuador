@@ -74,6 +74,10 @@
     font-size: 23px;
 }
 
+.aButton {
+    display: none;
+}
+
 @media screen and (max-width: 992px) {
     .ctDate {
         display: none;
@@ -91,8 +95,9 @@
     .ctCities li span {
         font-size: 16px;
     }
-    .imgMain {
-        padding-bottom: 20%;
+    .aButton {
+        display: flex;
+        margin: 5%;
     }
 }
 
