@@ -30,10 +30,6 @@
     font-weight: 900;
 }
 
-.aUp {
-    align-self: flex-end;
-}
-
 @media screen and (max-width: 992px) {
     .h2 {
         margin-top: 0px;

@@ -2,8 +2,7 @@ import Navbar from '../components/navbar/navbar'
 import styles from './page.module.css'
 import {team} from '../data/team'
 import NavbarMobile from '../components/navbarMobile/navbarMobile'
-import up from '../../public/img/up.svg'
-import Image from 'next/image'
+import Up from '../components/upButton/up'
 
 export default function About() {
   return (
@@ -45,12 +44,7 @@ export default function About() {
             ))
           }
         </section>
-        <a href='#' className={styles.aUp}>
-          <Image
-            src={up}
-            alt='botón que va al inicio de la página'
-          />
-        </a>
+        <Up/>
     </main>
     </>
   )

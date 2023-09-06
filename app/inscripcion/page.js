@@ -1,7 +1,9 @@
 import Navbar from '../components/navbar/navbar'
 import NavbarMobile from '../components/navbarMobile/navbarMobile'
 import Payment from '../components/payment/payment'
+import Up from '../components/upButton/up'
 import styles from './page.module.css'
+
 
 export default function Registration() {
   return (
@@ -38,6 +40,8 @@ export default function Registration() {
         <h3>Contacto Red PHI – Ecuador:</h3>
         <p>Alejandra Llumiluisa (593) 991402648</p>
       </div>
+
+      <Up/>
     </main>
     </>
   )

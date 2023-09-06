@@ -2,9 +2,9 @@ import Navbar from '../components/navbar/navbar'
 import NavbarMobile from '../components/navbarMobile/navbarMobile'
 import styles from './page.module.css'
 import Image from 'next/image'
-import up from '../../public/img/up.svg'
 import scheduleCuenca from '../../public/img/schedule/Programa_Cuenca.webp'
 import scheduleQuito from '../../public/img/schedule/Programa_Quito.webp'
+import Up from '../components/upButton/up'
 
 export default function Schedule() {
   return (
@@ -35,12 +35,7 @@ export default function Schedule() {
           width={900}
         />
       </section>
-      <a href='#' className={styles.aUp}>
-        <Image
-          src={up}
-          alt='botón que va al inicio de la página'
-        />
-      </a>
+      <Up/>
     </main>
     </>
   )

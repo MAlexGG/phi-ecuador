@@ -11,3 +11,17 @@
 .ctPayment h3 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .ctPayment {
+        flex-direction: column;
+    }
+    .ctPayment h3,
+    .ctPayment p,
+    .aButton {
+        margin: 20px 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {}
