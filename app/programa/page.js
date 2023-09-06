@@ -21,6 +21,7 @@ export default function Schedule() {
           src={scheduleCuenca}
           alt='Programa Coloquio en Cuenca'
           width={900}
+          className={styles.imgSchedule}
           style={
             {
               margin: '5%'
@@ -29,6 +30,7 @@ export default function Schedule() {
         />
         <Image
           src={scheduleQuito}
+          className={styles.imgSchedule}
           alt='Programa Coloquio en Quito'
           width={900}
         />
