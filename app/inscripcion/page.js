@@ -14,12 +14,13 @@ export default function Registration() {
         <h3>Como inscribirte:</h3>
         <p>Una vez establecida tu modalidad de inscripción, escoge la que te convenga.</p>
       </div>
+
+        <Payment title='Presencial' text='USD 75,00 (Certificado por 40 horas Académicas con asistencia 75% del evento)' alt='pago para evento presencial' href={'https://kshk.co/uide-pregrado/spdYHhsvC'}/>  
+
+        <Payment title='On-line' text='USD 50,00 (Certificado por 20 horas Académicas con asistencia 75% del evento)' alt='pago para evento on-line' href={'https://kshk.co/uide-pregrado/CE_8Slufx'}/>  
       
-
-      <Payment title='Presencial' text='USD 75,00 (Certificado por 40 horas Académicas con asistencia 75% del evento)' alt='pago para evento presencial'/>  
-      <Payment title='On-line' text='USD 50,00 (Certificado por 20 horas Académicas con asistencia 75% del evento)' alt='pago para evento on-line'/>  
-      <Payment title='Un día presencial' text='USD 20,00 (Esta modalidad no posee Certificado Académico del evento)' alt='pago para evento un día presencial'/>  
-
+        <Payment title='Un día presencial' text='USD 20,00 (Esta modalidad no posee Certificado Académico del evento)' alt='pago para evento un día presencial' href={'https://kshk.co/uide-pregrado/3SeAEly4s'}/>  
+            
       <p>* Formas de Pago: Tarjeta de crédito - Tarjeta de débito bancario</p>
 
       <div className={styles.ctRegistration}>
