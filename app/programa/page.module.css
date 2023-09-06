@@ -12,6 +12,28 @@
     margin-top: 92px;
 }
 
+.ctTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.ctTitle h3 {
+    font-size: 25px;
+    margin: 2%;
+}
+
+.ctTitle p span {
+    font-weight: 900;
+}
+
+.aUp {
+    align-self: flex-end;
+}
+
 @media screen and (max-width: 992px) {
     .h2 {
         margin-top: 0px;
