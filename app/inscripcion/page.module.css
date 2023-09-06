@@ -24,8 +24,21 @@
     margin: 2% 0%;
 }
 
+.ctRegistration p {
+    padding: 0px 100px;
+}
+
 .ctRegistration p span {
     font-weight: 900;
+}
+
+.ctPayments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px 100px;
 }
 
 @media screen and (max-width: 992px) {
