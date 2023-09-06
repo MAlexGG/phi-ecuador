@@ -12,6 +12,22 @@
     margin-top: 92px;
 }
 
+.ctRegistration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2% 0%;
+}
+
+.ctRegistration h3 {
+    margin: 2% 0%;
+}
+
+.ctRegistration p span {
+    font-weight: 900;
+}
+
 @media screen and (max-width: 992px) {
     .h2 {
         margin-top: 0px;
