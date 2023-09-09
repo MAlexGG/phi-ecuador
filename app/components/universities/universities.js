@@ -1,16 +1,25 @@
 import styles from './universities.module.css'
 import Image from 'next/image'
-import universities from '../../../public/img/logos/logosUniversities.jpg'
+import { universities } from '@/app/data/universities'
+import Link from 'next/link'
 
 export default function Universities() {
   return (
     <section className={styles.ctUniv}>
-        <Image
-          src={universities}
-          alt='logos de las universidades colaboradoras'
-          sizes="100%"
-          className={styles.imgUniv}
-        />
-      </section>
+      {
+        universities.map((university, index) => (
+          <Link href={university.href} key={index} target='_blank' className={styles.aUniv}>
+            <Image
+              src={university.image}
+              alt={university.alt}
+              width={100}
+              height={100}
+              className={styles.imgUniv}
+            />
+          </Link>
+          
+        ))
+      }
+    </section>
   )
 }
