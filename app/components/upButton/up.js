@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './up.module.css'
-import up from '../../../public/img/up.svg'
+import up from '../../../public/icons/up.svg'
 
 export default function Up() {
 

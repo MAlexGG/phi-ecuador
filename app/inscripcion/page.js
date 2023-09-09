@@ -1,5 +1,3 @@
-import Navbar from '../components/navbar/navbar'
-import NavbarMobile from '../components/navbarMobile/navbarMobile'
 import Payment from '../components/payment/payment'
 import Subtitle from '../components/subtitle/subtitle'
 import Up from '../components/upButton/up'

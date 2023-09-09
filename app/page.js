@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import coloquio from '../public/img/mainImage.jpg'
-import logo from '../public/img/logo.png'
+import coloquio from '../public/img/logos/mainImage.jpg'
+import logo from '../public/img/logos/logo.png'
 import Universities from './components/universities/universities'
 import Dates from './components/dates/dates'
 import Link from 'next/link'
 import Button from './components/button/button'
-import icoGo from '../public/img/go.svg'
+import icoGo from '../public/icons/go.svg'
 
 export default function Home() {
   return (

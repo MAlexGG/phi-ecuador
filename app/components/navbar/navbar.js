@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import styles from './navbar.module.css'
-import logo from '../../../public/img/logo2.png'
+import logo from '../../../public/img/logos/logo2.png'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { navLinks } from '../../data/navLinks'

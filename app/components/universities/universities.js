@@ -1,6 +1,6 @@
 import styles from './universities.module.css'
 import Image from 'next/image'
-import universities from '../../../public/img/logosUniversities.jpg'
+import universities from '../../../public/img/logos/logosUniversities.jpg'
 
 export default function Universities() {
   return (

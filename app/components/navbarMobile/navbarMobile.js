@@ -2,8 +2,8 @@
 
 import Image from 'next/image'
 import styles from './navbarMobile.module.css'
-import menu from '../../../public/img/menu.svg'
-import logo from '../../../public/img/logo2.png'
+import menu from '../../../public/icons/menu.svg'
+import logo from '../../../public/img/logos/logo2.png'
 import { useState } from 'react'
 import { navLinks } from '../../data/navLinks'
 import Link from 'next/link'

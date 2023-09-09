@@ -1,6 +1,6 @@
 import styles from './payment.module.css'
 import Button from '../button/button'
-import icoPay from '../../../public/img/card.svg'
+import icoPay from '../../../public/icons/card.svg'
 import Link from 'next/link'
 
 export default function Payment({title, text, alt, href}) {
