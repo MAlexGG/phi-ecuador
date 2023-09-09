@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# :city_sunset: Red PHI Ecuador
 
-## Getting Started
+## Table of Contents
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
 
-First, run the development server:
+***
+## General Info
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This is a responsive website to promote a PHI network colloquium in Ecuador, in which several universities participate, publicize the organizers, speakers and the schedule. It also has a registration page that redirects to an external payment gateway.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### <a href='https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1101-403&t=nyQ0SKXeAyPu295g-1&scaling=scale-down&page-id=1101%3A402&starting-point-node-id=1101%3A403&show-proto-sidebar=1&mode=design' target='_blank'>UI Design</a>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![phi](https://github.com/MAlexGG/phi-ecuador/assets/73828751/2761e458-8f04-490c-aa11-c30e86904a25)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies
+It was developed with React.js v.18.2.0 and Next.js v.13.4.19. The UI was designed in Figma. 
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation
+- Required node v.18.15.0
+- git clone <repository>
+- npm install
+- npm run dev
