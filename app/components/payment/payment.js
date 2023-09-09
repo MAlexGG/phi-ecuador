@@ -9,7 +9,7 @@ export default function Payment({title, text, alt, href}) {
     <div className={styles.ctPayment}>
         <h3>{title}</h3>
         <p>{text}</p>
-        <Link href={href} className={styles.aButton}>
+        <Link href={href} className={styles.aButton} target='_blank'>
             <Button theme={true} img={icoPay} alt={alt}>Pagar</Button>
         </Link>
     </div>
