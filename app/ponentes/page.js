@@ -1,17 +1,13 @@
-import Navbar from '../components/navbar/navbar'
-import NavbarMobile from '../components/navbarMobile/navbarMobile'
 import styles from './page.module.css'
 import { speakers } from '../data/speakers'
 import Speaker from '../components/speaker/speaker'
 import Up from '../components/upButton/up'
+import Subtitle from '../components/subtitle/subtitle'
 
 export default function Speakers() {
   return (
     <>
-    <Navbar/>
-    <NavbarMobile/>
-    <main className={styles.main}>
-      <h2 className={styles.h2}>PONENTES</h2>
+    <Subtitle text='PONENTES'>
       <section className={styles.ctMembers}>
         {
           speakers.map((speaker, index) => (
@@ -20,7 +16,7 @@ export default function Speakers() {
         }
       </section>
       <Up/> 
-    </main>
+    </Subtitle>    
     </>
   )
 }

@@ -1,16 +1,12 @@
-import Navbar from '../components/navbar/navbar'
 import styles from './page.module.css'
 import {team} from '../data/team'
-import NavbarMobile from '../components/navbarMobile/navbarMobile'
 import Up from '../components/upButton/up'
+import Subtitle from '../components/subtitle/subtitle'
 
 export default function About() {
   return (
     <>
-    <Navbar/>
-    <NavbarMobile/>
-    <main className={styles.main}>
-        <h2 className={styles.h2}>RED PHI ECUADOR</h2>
+    <Subtitle text='RED PHI ECUADOR'>
         <section>
           <div className={styles.ctText}>
             <h4 className={styles.h4}>¿Qué es la Red PHI?</h4>
@@ -45,7 +41,7 @@ export default function About() {
           }
         </section>
         <Up/>
-    </main>
+    </Subtitle>      
     </>
   )
 }

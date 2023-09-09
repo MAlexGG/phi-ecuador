@@ -1,6 +1,7 @@
 import Navbar from '../components/navbar/navbar'
 import NavbarMobile from '../components/navbarMobile/navbarMobile'
 import Payment from '../components/payment/payment'
+import Subtitle from '../components/subtitle/subtitle'
 import Up from '../components/upButton/up'
 import styles from './page.module.css'
 
@@ -8,10 +9,7 @@ import styles from './page.module.css'
 export default function Registration() {
   return (
     <>
-    <Navbar/>
-    <NavbarMobile/>
-    <main className={styles.main}>
-      <h2 className={styles.h2}>INSCRIPCIÓN</h2>
+    <Subtitle text='INSCRIPCIÓN'>
       <div className={styles.ctRegistration}>
         <h3>Como inscribirte:</h3>
         <p>Una vez establecida tu modalidad de inscripción, escoge la que te convenga.</p>
@@ -40,9 +38,8 @@ export default function Registration() {
         <h3>Contacto Red PHI – Ecuador:</h3>
         <p>Alejandra Llumiluisa (593) 991402648</p>
       </div>
-
       <Up/>
-    </main>
+    </Subtitle>
     </>
   )
 }
