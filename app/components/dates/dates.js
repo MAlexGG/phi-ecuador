@@ -1,4 +1,4 @@
-import styles from '../page.module.css'
+import styles from './dates.module.css'
 
 export default function Dates() {
   return (

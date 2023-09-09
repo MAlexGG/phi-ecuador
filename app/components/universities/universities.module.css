@@ -1,0 +1,22 @@
+.ctUniv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 67px;
+    background-color: var(--white-color);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.imgUniv {
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 576px) {
+    .ctUniv {
+        width: 100%;
+        border-radius: 0px;
+    }
+}

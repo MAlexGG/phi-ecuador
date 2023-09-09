@@ -7,27 +7,11 @@
     background-color: var(--main-color);
 }
 
-.ctUniv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height: 67px;
-    background-color: var(--white-color);
-    border-radius: 0px 0px 30px 30px;
-}
-
 .imgLogo {
     width: 250px;
     height: auto;
     align-self: flex-start;
     margin: 2%;
-}
-
-.imgUniv {
-    width: 80%;
-    height: 100%;
-    object-fit: contain;
 }
 
 .imgMain {
@@ -36,65 +20,11 @@
     cursor: pointer;
 }
 
-.ctDate {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 45%;
-    margin: 5%;
-}
-
-.ctDateM {
-    display: none;
-}
-
-.ctDate h4,
-.ctDateM h4 {
-    color: var(--white-color);
-    text-align: center;
-    font-size: 42px;
-    border: 2px solid var(--red-color);
-    padding: 2%;
-}
-
-.ctCities {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.ctCities li {
-    color: var(--red-color);
-    list-style-position: inside;
-}
-
-.ctCities li span {
-    color: var(--white-color);
-    font-size: 23px;
-}
-
 .aButton {
     display: none;
 }
 
 @media screen and (max-width: 992px) {
-    .ctDate {
-        display: none;
-    }
-    .ctDateM {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 35%;
-        margin: 5%;
-    }
-    .ctDateM h4 {
-        font-size: 25px;
-    }
-    .ctCities li span {
-        font-size: 16px;
-    }
     .aButton {
         display: flex;
         margin: 5%;
@@ -104,12 +34,5 @@
 @media screen and (max-width: 576px) {
     .imgLogo {
         align-self: center;
-    }
-    .ctDateM {
-        width: 80%;
-    }
-    .ctUniv {
-        width: 100%;
-        border-radius: 0px;
     }
 }
