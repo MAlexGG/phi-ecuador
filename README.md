@@ -10,7 +10,7 @@
 
 This is a responsive website to promote a PHI network colloquium in Ecuador, in which several universities participate, publicize the organizers, speakers and the schedule. It also has a registration page that redirects to an external payment gateway.
 
-### [UI Design](https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1101-403&t=nyQ0SKXeAyPu295g-1&scaling=scale-down&page-id=1101%3A402&starting-point-node-id=1101%3A403&show-proto-sidebar=1&mode=design) {target:"_blank"}
+### [UI Design](https://www.figma.com/proto/DZX9DselgRidAd3aDq54IP/Personal-Projects?type=design&node-id=1101-403&t=nyQ0SKXeAyPu295g-1&scaling=scale-down&page-id=1101%3A402&starting-point-node-id=1101%3A403&show-proto-sidebar=1&mode=design)
 
 ![phi](https://github.com/MAlexGG/phi-ecuador/assets/73828751/2761e458-8f04-490c-aa11-c30e86904a25)
 
