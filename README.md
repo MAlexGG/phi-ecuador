@@ -1,4 +1,4 @@
-# :city_sunset: Red PHI Ecuador
+![image](https://github.com/MAlexGG/phi-ecuador/assets/73828751/05f0640d-0aa7-4f8c-9b82-89f30059b3f2)# :city_sunset: Red PHI Ecuador
 
 ## Table of Contents
 1. [General Info](#general-info)
@@ -15,7 +15,7 @@ This is a responsive website to promote a PHI network colloquium in Ecuador, in 
 ![phiEcuador](https://github.com/MAlexGG/phi-ecuador/assets/73828751/1abbc267-d2f1-40c1-8e39-8216989aad7d)
 
 ## Technologies
-It was developed with React.js v.18.2.0 and Next.js v.13.4.19. The UI was designed in Figma. 
+It was developed with React.js v.18.2.0 and Next.js v.13.4.19. The UI was designed in Figma following Atomic Design Methodology.
 
 ## Installation
 - Required node v.18.15.0
