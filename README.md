@@ -1,4 +1,4 @@
-![image](https://github.com/MAlexGG/phi-ecuador/assets/73828751/05f0640d-0aa7-4f8c-9b82-89f30059b3f2)# :city_sunset: Red PHI Ecuador
+# :city_sunset: Red PHI Ecuador
 
 ## Table of Contents
 1. [General Info](#general-info)
