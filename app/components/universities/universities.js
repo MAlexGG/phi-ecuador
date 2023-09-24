@@ -8,7 +8,7 @@ export default function Universities() {
     <section className={styles.ctUniv}>
       {
         universities.map((university, index) => (
-          <Link href={university.href} key={index} target='_blank' className={styles.aUniv}>
+          <Link href={university.href} key={index} target='_blank' className={styles.aUniv} rel="noopener noreferrer">
             <Image
               src={university.image}
               alt={university.alt}

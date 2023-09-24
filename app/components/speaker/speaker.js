@@ -10,7 +10,7 @@ export default function Speaker({speaker}) {
         <div className={styles.ctText}>
             <h3>{speaker.name}</h3>
             <p>{speaker.description}</p>
-            <a href={speaker.link} className={styles.aLink} target='_blank'>Link publicaciones</a>
+            <a href={speaker.link} className={styles.aLink} target='_blank' rel="noopener noreferrer">Link publicaciones</a>
         </div>
         <div className={styles.ctImg}>
             <Image
