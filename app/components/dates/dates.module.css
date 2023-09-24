@@ -58,5 +58,9 @@
 @media screen and (max-width: 576px) {
     .ctDateM {
         width: 80%;
+        flex-direction: column;
+    }
+    .ctDateM ul {
+        padding: 10px 0px;
     }
 }
