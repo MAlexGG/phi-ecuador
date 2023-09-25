@@ -4,7 +4,7 @@
     align-items: center;
     width: 60%;
     height: 67px;
-    background-color: var(--white-color);
+    background-color: white;
     border-radius: 0px 0px 30px 30px;
     padding: 20px 50px;
 }

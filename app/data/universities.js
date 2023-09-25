@@ -5,7 +5,7 @@ export const universities = [
         alt: 'logo de la universidad católica del Ecuador'
     },
     {
-        image: '/img/logos/uide.jpg',
+        image: '/img/logos/uide.webp',
         href: 'https://www.uide.edu.ec/',
         alt: 'logo de la universidad Internacional del Ecuador'
     },

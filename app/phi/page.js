@@ -14,7 +14,7 @@ export default function About() {
           </div>
           <div className={styles.ctText}>
             <h4 className={styles.h4}>Red PHI Ecuador</h4>
-            <p>n 2023 se estructuró la Red PHI – Ecuador, conformada por universidades localizadas en las principales ciudades del país: Quito, Cuenca y Guayaquil, con lo cual se integran a la red Ecuador los centros urbanos que se destacan por su patrimonio prehispánico, virreinal y moderno, así como dos centros históricos del patrimonio mundial: Quito (1978) y Cuenca (1999); mientras que Guayaquil es reconocido por su Patrimonio arquitectónico moderno.
+            <p>En 2023 se estructuró la Red PHI – Ecuador, conformada por universidades localizadas en las principales ciudades del país: Quito, Cuenca y Guayaquil, con lo cual se integran a la red Ecuador los centros urbanos que se destacan por su patrimonio prehispánico, virreinal y moderno, así como dos centros históricos del patrimonio mundial: Quito (1978) y Cuenca (1999); mientras que Guayaquil es reconocido por su Patrimonio arquitectónico moderno.
             Las universidades que conforman la Red PHI – Ecuador son: Pontificia Universidad Católica del Ecuador, Universidad Internacional de Ecuador, Universidad Católica de Cuenca; Universidad Católica de Santiago de Guayaquil.</p>
           </div>
         </section>

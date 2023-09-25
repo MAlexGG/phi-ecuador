@@ -21,7 +21,7 @@ export default function Registration() {
 
         <p>* Formas de Pago: Tarjeta de crédito - Tarjeta de débito bancario</p>
       </div>
-      <div className={styles.ctRegistration}>
+      <div className={`${styles.ctRegistration} ${styles.ctValidation}`}>
         <h3>Para validar tu inscripción:</h3>
         <p>Reenvíanos el e-mail de tu inscripción a <span>redphi-ecuador@uide.edu.ec</span> y completaremos desde la Red PHI – Ecuador el proceso de inscripción.</p>
       </div>
