@@ -10,7 +10,7 @@ export default function Registration() {
     <Subtitle text='INSCRIPCIÓN'>
       <div className={styles.ctRegistration}>
         <h3>Como inscribirte:</h3>
-        <p>Una vez establecida tu modalidad de inscripción, escoge la que te convenga.</p>
+        <p>Selecciona la modalidad de inscripción que te convenga.</p>
       </div>
       <div className={styles.ctPayments}>
         <Payment title='Presencial' text='USD 75,00 (Certificado por 40 horas Académicas con asistencia 75% del evento)' alt='pago para evento presencial' href={'https://kshk.co/uide-pregrado/spdYHhsvC'}/>  
@@ -22,8 +22,8 @@ export default function Registration() {
         <p>* Formas de Pago: Tarjeta de crédito - Tarjeta de débito bancario</p>
       </div>
       <div className={`${styles.ctRegistration} ${styles.ctValidation}`}>
-        <h3>Para validar tu inscripción:</h3>
-        <p>Reenvíanos el e-mail de tu inscripción a <span>redphi-ecuador@uide.edu.ec</span> y completaremos desde la Red PHI – Ecuador el proceso de inscripción.</p>
+        <h3 className={styles.txtValidation}>Para validar tu inscripción:</h3>
+        <p>Reenvíanos la captura de pantalla de tu inscripción a <strong>redphi-ecuador@uide.edu.ec</strong> y completaremos desde la Red PHI – Ecuador el proceso de inscripción</p>
       </div>
 
       <div className={styles.ctRegistration}>

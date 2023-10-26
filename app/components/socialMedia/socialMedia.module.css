@@ -1,0 +1,27 @@
+.ctSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.imgSocial {
+    width: 80%;
+    height: 80%;
+}
+
+@media screen and (max-width: 576px) {
+    .ctSocial {
+        position: relative;
+        width: 150px;
+        gap: 10px;
+    }
+    .imgSocial {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -7,6 +7,7 @@ import Dates from './components/dates/dates'
 import Link from 'next/link'
 import Button from './components/button/button'
 import icoGo from '../public/icons/go.svg'
+import SocialMedia from './components/socialMedia/socialMedia'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         />
       </Link>
       <Dates/>
+      <SocialMedia/>
       <Link href={'/phi'} className={styles.aButton}>
         <Button img={icoGo} alt={'Ingresar a la web'}>Ingresar</Button>
       </Link>
