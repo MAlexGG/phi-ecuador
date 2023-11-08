@@ -39,6 +39,12 @@
     color: var(--red-color);
 }
 
+.txtNote {
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    font-size: 18px;
+}
+
 @media screen and (max-width: 992px) {
     .ctRegistration p {
         padding: 0px;

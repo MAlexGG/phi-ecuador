@@ -20,6 +20,8 @@ export default function Registration() {
         <Payment title='Un día presencial' text='USD 20,00 (Esta modalidad no posee Certificado Académico del evento)' alt='pago para evento un día presencial' href={'https://kshk.co/uide-pregrado/3SeAEly4s'}/>  
 
         <p>* Formas de Pago: Tarjeta de crédito - Tarjeta de débito bancario</p>
+
+        <p className={styles.txtNote}>NOTA: Se aceptarán  inscripciones el día del evento</p>
       </div>
       <div className={`${styles.ctRegistration} ${styles.ctValidation}`}>
         <h3 className={styles.txtValidation}>Para validar tu inscripción:</h3>
