@@ -20,22 +20,31 @@ export default function About() {
         </section>
 
         <section className={styles.ctUniversities}>
-          <h3 className={styles.h3}>Universidad coordinadora:</h3>
+          <h3 className={styles.h3}>Comité ejecutivo de la RedPHI para Ecuador:</h3>
           <div className={styles.ctUni}>
             <h5 className={styles.h5}>{team[0].university}</h5>
             <p>{team[0].name}</p>
-            <p>{team[0].job}</p>
+          </div>
+        </section>
+
+        <section className={styles.ctUniversities}>
+          <h3 className={styles.h3}>Coordinador de RedPHI para Ecuador:</h3>
+          <div className={styles.ctUni}>
+            <h5 className={styles.h5}>{team[1].university}</h5>
+            <p>{team[1].name}</p>
           </div>
         </section>
 
         <section className={styles.ctUniversities}>
           <h3 className={styles.h3}>Conformación de la red:</h3>
           {
-            team.slice(1).map((person, index) => (
+            team
+              .filter((_, index) => index !== 1)
+              .sort((a, b) => (team.indexOf(a) === 2 ? -1 : team.indexOf(b) === 2 ? 1 : 0))
+              .map((person, index) => (
                 <div className={styles.ctUni} key={index}>
                   <h5 className={styles.h5}>{person.university}</h5>
                   <p>{person.name}</p>
-                  <p>{person.job}</p>
                 </div>
             ))
           }
