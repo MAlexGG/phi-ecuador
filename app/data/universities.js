@@ -20,7 +20,7 @@ export const universities = [
         alt: 'logo de la universidad católica de Santiago de Guayaquil'
     },
     {
-        image: '/img/logos/ug.jpg',
+        image: '/img/logos/ug.png',
         href: 'https://www.ug.edu.ec/',
         alt: 'logo de la universidad de Guayaquil'
     }

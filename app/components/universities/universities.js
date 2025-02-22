@@ -12,8 +12,8 @@ export default function Universities() {
             <Image
               src={university.image}
               alt={university.alt}
-              width={100}
-              height={100}
+              width={95}
+              height={95}
               className={styles.imgUniv}
             />
           </Link>
