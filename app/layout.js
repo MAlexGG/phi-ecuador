@@ -8,7 +8,7 @@ const roboto = Roboto({
 
 export const metadata = {
   title: 'PHI - Ecuador',
-  description: 'Coloquio Geomateriales y Patrimonio arquitectónico en Ecuador',
+  description: 'Red patrimonio histórico y cultural iberoamericano',
 }
 
 export default function RootLayout({ children }) {

@@ -2,14 +2,14 @@ export const team = [
     {
         university: 'Universidad Católica de Cuenca (UCACUE)',
         name: 'Investigadora principal: María del Cisne Aguirre Ullauri',
-        description: 'Doctora en en Patrimonio Arquitectónico mención cum laude y Máster Universitario en Conservación y Restauración del Patrimonio Arquitectónico por la Universidad Politécnica de Madrid; Arquitecta, Docente investigadora titular y Jefa de Investigación de la Universidad Católica de Cuenca.',
+        description: 'Doctora en Patrimonio Arquitectónico, mención cum laude y doctorado internacional, y Máster Universitario en Conservación y Restauración del Patrimonio Arquitectónico por la Universidad Politécnica de Madrid; Arquitecta, Docente investigadora titular de la Universidad Católica de Cuenca.',
         link: 'https://scholar.google.com/citations?hl=es&user=ahHBdGoAAAAJ',
         image: '/img/members/maria.jpg'
     },
     {
         university: 'Universidad Internacional del Ecuador (UIDE)',
         name: 'Investigador principal: M. Lenin Lara Calderón',
-        description: 'Doctor en Construcciones y Tecnologías Arquitectónicas, mención cum laude por la Universidad Politécnica de Madrid; Máster en Administración de Empresas Inmobiliarias por la Universidad San Francisco de Quito; Máster en Restauración Arquitectónica por la Universidad Politécnica de Madrid; Arquitecto, Docente investigador de la Universidad Internacional del Ecuador.',
+        description: 'Doctor en Construcciones y Tecnologías Arquitectónicas, mención cum laude por la Universidad Politécnica de Madrid; Máster en Administración de Empresas Inmobiliarias (2004); Máster en Restauración Arquitectónica (2002); Arquitecto, Docente investigador de la Universidad Internacional del Ecuador. con experiencia en proyectos de I+D+i sobre caracterización de materiales históricos, patología constructiva, afectaciones de infraestructura, HBIM.',
         link: 'https://scholar.google.com/citations?user=FLco9rIAAAAJ&hl=es',
         image: '/img/members/lenin.jpg'
     },
@@ -24,7 +24,7 @@ export const team = [
     {
         university: 'Universidad de Guayaquil (UG)',
         name: 'Investigadora principal: Prof. Tanya P Donoso Mogollón',
-        description: 'Magíster en arquitectura mención en crítica y proyecto arquitectónico avanzado por la Universidad Católica de Santiago de Guayaquil, Especialista en Historia por la Universidad Andina Simón Bolívar (Sede Ecuador); Arquitecta. Investigadora de la Facultad de Arquitectura y Diseño. Universidad Católica de Santiago de Guayaquil.',
+        description: 'Magíster en arquitectura mención en crítica y proyecto arquitectónico avanzado por la Universidad Católica de Santiago de Guayaquil, Especialista en Historia por la Universidad Andina Simón Bolívar (Sede Ecuador); Arquitecta. Docente investigadora de la Facultad de Arquitectura y Urbanismo.  Universidad de Guayaquil.',
         link: 'https://scholar.google.com/citations?hl=es&user=5kuzrFkAAAAJ',
         image: '/img/members/tanya.jpg'
     },

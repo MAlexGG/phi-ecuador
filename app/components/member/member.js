@@ -19,6 +19,7 @@ export default function Member({member}) {
         
         <div className={styles.ctText}>
             <h3>{member.name}</h3>
+            <p><strong>{member.university.toUpperCase()}</strong></p>
             <p>{member.description}</p>
             <a href={member.link} className={styles.aLink} target='_blank' rel="noopener noreferrer">Link publicaciones</a>
         </div>
