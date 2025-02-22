@@ -1,0 +1,22 @@
+.ctEvents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 50px;
+    width: 100%;
+}
+
+.h3{
+    font-size: 25px;
+    margin: 2% 0%;
+}
+
+.ctText{
+    padding: 25px 100px 25px 0;
+    text-align: justify;
+}
+
+.list{
+    padding: 0 0 0 50px;
+}

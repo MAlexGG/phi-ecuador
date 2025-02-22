@@ -2,25 +2,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 20px 50px;
 }
 
 .ctImg {
     width: auto;
     height: 170px;
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
     position: relative;
 }
 
 .imgMember {
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: contain;
 }
-
+.h3{
+    font-size: 25px;
+}
 .ctText {
-    width: 75%;
+    width: 100%;
     padding-right: 2%;
     text-align: justify;
     height: 200px;

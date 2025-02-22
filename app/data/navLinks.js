@@ -8,12 +8,12 @@ export const navLinks = [
       href: '/equipo'
     },
     {
-      name: 'Ponentes',
-      href: '/ponentes'
-    },
-    {
-      name: 'Programa',
-      href: '/programa'
+      name: 'Eventos',
+      href: '/eventos',
+      subLinks: [
+        { name: '2023 Coloquio', href: '/eventos/2023' },
+        { name: '2024 Capacitación', href: '/eventos/2024' }
+      ]
     },
     {
       name: 'Inscripción',

@@ -1,5 +1,5 @@
 .dark {
-    width: 130px;
+    width: auto;
     height: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -9,6 +9,8 @@
     background-color: var(--main-color);
     color: var(--white-color);
     cursor: pointer;
+    padding: 10px 20px;
+    gap: 10px;
 }
 
 .light {

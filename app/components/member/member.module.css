@@ -33,7 +33,13 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 810px) {
+    .ctMember {
+        margin: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
     .ctMember {
         flex-direction: column;
         border-bottom: 1px solid var(--main-color);

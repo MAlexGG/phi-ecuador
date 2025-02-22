@@ -8,7 +8,7 @@ export default function Speaker({speaker}) {
   return (
     <div className={styles.ctMember}>
         <div className={styles.ctText}>
-            <h3>{speaker.name}</h3>
+            <h3 className={styles.h3}>{speaker.name}</h3>
             <p>{speaker.description}</p>
             <a href={speaker.link} className={styles.aLink} target='_blank' rel="noopener noreferrer">Link publicaciones</a>
         </div>

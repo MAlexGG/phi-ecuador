@@ -1,0 +1,15 @@
+.ctTabs{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.ctButtons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1px;
+}
+
+.hr{
+    color: var(--main-color);
+}
