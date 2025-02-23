@@ -21,3 +21,10 @@
         height: 80px;
     }
 }
+
+@media screen and (min-height: 900px) and (max-width: 850px) {
+    .ctFooter {
+        position: fixed;
+        bottom: 0;
+    }
+}

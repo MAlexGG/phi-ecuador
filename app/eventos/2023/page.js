@@ -2,7 +2,6 @@
 
 import Subtitle from "@/app/components/subtitle/subtitle"
 import styles from "./page.module.css"
-import Up from "@/app/components/upButton/up"
 import Tab from "@/app/components/tab/tab"
 import Description from "@/app/components/events/2023/description/description"
 import { useState } from "react"
@@ -34,8 +33,6 @@ export default function Events2023() {
       {
         components[active] || null 
       }
-
-        <Up/>
       </Subtitle>
     )
   }
