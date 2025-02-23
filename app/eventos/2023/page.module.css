@@ -11,5 +11,26 @@
 }
 
 .hr{
+    display: block;
     color: var(--main-color);
+}
+
+@media screen and (max-width: 576px) {
+    .ctTabs{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .ctButtons{
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .hr{
+        display:  none;
+    }
 }

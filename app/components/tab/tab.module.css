@@ -10,6 +10,7 @@
     color: var(--white-color);
     cursor: pointer;
     padding: 0 20px;
+    
 }
 
 .dark:hover{
@@ -36,4 +37,13 @@
     background-color: var(--main-color);
     color: var(--white-color);
     border: none;
+}
+
+@media screen and (max-width: 576px) {
+    .dark, .light{
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(90deg);
+        height: 150px;
+    }
 }
