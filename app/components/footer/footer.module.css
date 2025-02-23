@@ -5,11 +5,16 @@
     width: 100vw;
     height: 40px;
     background-color: var(--dark-color);
+    padding: 0 20px;
+}
+
+.link{
+    width: 30px;
+    height: 30px;
 }
 
 .ctFooter p {
     color: var(--white-color);
-    padding: 0 20px;
     font-size: 12px;
 }
 
