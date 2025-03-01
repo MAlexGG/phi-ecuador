@@ -11,14 +11,15 @@ import Link from 'next/link'
 export default function NavbarMobile() {
 
     const [isOpen, setIsOpen] = useState(false);
+    const [openDropdown, setOpenDropdown] = useState(null);
 
     const handleClick = () => {
         setIsOpen(!isOpen);
     }
 
   return (
-    <div className={styles.ctNavbarMobile}>
-        <nav className={styles.nav}>
+    <header className={styles.ctHeaderMobile}>
+        <div className={styles.headerClosed}>
             <Link href='/'>
                 <Image
                     src={logo}
@@ -33,15 +34,36 @@ export default function NavbarMobile() {
                     width='30'
                 />
             </button>
-        </nav>
+        </div>
         
-        <div className={isOpen ? styles.btOpen : styles.btClose }>
+        <nav className={isOpen ? styles.btOpen : styles.btClose }>
             {
                 navLinks.map((link, index) => (
-                    <Link href={link.href} key={index} className={styles.aNav}>{link.name}</Link>
+                    <div key={index} className={styles.navItem}>
+                    { link.subLinks ? (
+                        <div className={styles.dropdown}>
+                            <button className={styles.btNav} onClick={() => setOpenDropdown(openDropdown === index ? null : index)}>
+                                {link.name}
+                            </button>
+                            { openDropdown === index && (
+                                <div className={styles.dropdownMenu}>
+                                {link.subLinks.map((subLink, subIndex) => (
+                                    <Link key={subIndex} href={subLink.href} className={styles.subLink}>
+                                    {subLink.name}
+                                    </Link>
+                                ))}
+                                </div>
+                            )}
+                        </div>
+                    ) : (
+                        <Link href={link.href} className={ styles.aNav }>
+                        {link.name}
+                        </Link>
+                    )}
+                    </div>
                 ))
             }
-        </div>
-    </div>
+        </nav>
+    </header>
   )
 }

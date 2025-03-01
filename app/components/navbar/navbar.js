@@ -13,7 +13,7 @@ export default function Navbar() {
   const [openDropdown, setOpenDropdown] = useState(null);
 
   return (
-    <div className={styles.ctNavbar}>
+    <header className={styles.ctHeader}>
       <Link href='/'>
         <Image src={logo} alt='logo de Red PHI' className={styles.imgLogo} />
       </Link> 
@@ -21,7 +21,6 @@ export default function Navbar() {
       <nav className={styles.nav}>
         {navLinks.map((link, index) => {
           const isActive = pathname === link.href;
-
           return (
             <div key={index} className={styles.navItem}>
               {/* Si tiene subLinks, renderiza un dropdown */}
@@ -52,6 +51,6 @@ export default function Navbar() {
           );
         })}
       </nav>
-    </div>
+    </header>
   );
 }

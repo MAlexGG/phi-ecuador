@@ -1,15 +1,15 @@
-.ctNavbarMobile {
+.ctHeaderMobile {
     display: none;
 }
 
 @media screen and (max-width: 992px) {
-    .ctNavbarMobile {
+    .ctHeaderMobile {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .nav {
+    .headerClosed {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -17,11 +17,12 @@
         width: 100vw;
         height: 67px;
         padding: 0% 3%;
-        /* position: fixed; */
-        box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
-        -webkit-box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
-        -moz-box-shadow: 0px 4px 23px -6px rgba(37, 47, 102, 0.45);
+        box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.7);
+        -webkit-box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.7);
+        -moz-box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.7);
+        z-index: 2;
     }
+    
     .imgLogo {
         width: auto;
         height: 30px;
@@ -45,9 +46,50 @@
     .aNav {
         font-size: 25px;
         color: var(--white-color);
-        border-bottom: 2px solid white;
         width: 80%;
         text-align: center;
         line-height: 100px;
     }
+    .btNav {
+        font-size: 25px;
+        color: var(--white-color);
+        background-color: transparent;
+        border: none;
+        width: 80%;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .navItem{
+        width: 90%;
+        text-align: center;
+        border-bottom: 2px dashed var(--white-color);
+    }
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .dropdownMenu {
+        background: var(--white-color);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90vw;
+        height: 150px;
+      }
+      
+      .subLink {
+        
+        display: block;
+        text-decoration: none;
+        text-wrap: nowrap;
+        color: var(--main-color);
+        font-size: 25px;
+      }
 }

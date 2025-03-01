@@ -9,11 +9,12 @@ import Image from "next/image";
 export default function Carousel({images}) {
 
   const [position, setPosition] = useState(0);
+  const imgSize = 704;
 
 
  const nextSlide = () => {
-  if(position <= (images.length - 2) * 704){
-    setPosition(position + 704);
+  if(position <= (images.length - 2) * imgSize){
+    setPosition(position + imgSize);
   } else {
     setPosition(0);
   }
@@ -23,7 +24,7 @@ const prevSlide = () => {
   if(position <= 0){
     setPosition(0)
   } else {
-    setPosition(position - 704)
+    setPosition(position - imgSize)
   }
 };
 
