@@ -11,7 +11,7 @@ import { useState } from 'react'
 export default function Navbar() {
   const pathname = usePathname();
   const [openDropdown, setOpenDropdown] = useState(null);
-
+console.log(pathname)
   return (
     <header className={styles.ctHeader}>
       <Link href='/'>
@@ -23,13 +23,9 @@ export default function Navbar() {
           const isActive = pathname === link.href;
           return (
             <div key={index} className={styles.navItem}>
-              {/* Si tiene subLinks, renderiza un dropdown */}
               {link.subLinks ? (
                 <div className={styles.dropdown}>
-                  <button 
-                    className={isActive ? styles.aActive : styles.aNoActive}
-                    onClick={() => setOpenDropdown(openDropdown === index ? null : index)}
-                  >
+                  <button className={pathname.startsWith("/eventos") ? styles.aActive : styles.aNoActive} onClick={() => setOpenDropdown(openDropdown === index ? null : index)}>
                     {link.name}
                   </button>
                   {openDropdown === index && (
