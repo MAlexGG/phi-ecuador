@@ -41,9 +41,12 @@
 
 @media screen and (max-width: 576px) {
     .dark, .light{
-        transform: rotate(-90deg);
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(90deg);
-        height: 150px;
+        justify-content: center;
+        width: 40px;
+        height: auto;
+        padding: 20px 5px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        border-radius: 10px;
     }
 }

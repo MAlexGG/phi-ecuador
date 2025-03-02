@@ -1,36 +1,13 @@
-.ctTabs{
-    width: 100%;
-    margin-top: 50px;
-}
-
-.ctButtons{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1px;
-}
-
-.hr{
-    display: block;
-    color: var(--main-color);
-}
-
 @media screen and (max-width: 576px) {
-    .ctTabs{
-        position: absolute;
+    .ctTabs {
+        position: fixed;
         left: 0;
-        top: 0;
-        height: auto;
-        display: flex;
-        justify-content: space-around;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease-in-out;
     }
-    .ctButtons{
-        flex-direction: column;
-        height: 100%;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .hr{
-        display:  none;
+
+    .ctTabs.hidden {
+        transform: translateY(-50%) translateX(-100%);
     }
 }

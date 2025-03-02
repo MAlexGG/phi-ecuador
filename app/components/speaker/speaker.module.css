@@ -25,7 +25,7 @@
     width: 100%;
     padding-right: 2%;
     text-align: justify;
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -40,6 +40,12 @@
     position: absolute;
     bottom: 0px;
     right: 0px;
+}
+
+@media screen and (max-width: 850px) {
+    .ctMember {
+        margin: 20px 0;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -58,3 +64,4 @@
         padding: 10px 0px;
     }
 }
+

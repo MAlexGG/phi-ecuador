@@ -3,12 +3,12 @@ import Navbar from "../navbar/navbar"
 import NavbarMobile from "../navbarMobile/navbarMobile"
 import styles from './subtitle.module.css'
 
-export default function Subtitle({ children, text }) {
+export default function Subtitle({ children, text, tabs="" }) {
   return (
     <>
       <Navbar/>
       <NavbarMobile/>
-      <main className={styles.main}>
+      <main className={`${styles.main} ${tabs ? styles[tabs]: ''}`}>
         <h2 className={styles.h2}>{text}</h2>
         {children}
       </main>

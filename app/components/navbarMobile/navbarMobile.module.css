@@ -20,7 +20,7 @@
         box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.7);
         -webkit-box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.7);
         -moz-box-shadow: 0px 4px 23px -6px rgba(0, 0, 0, 0.7);
-        z-index: 2;
+        z-index: 1;
     }
     
     .imgLogo {
@@ -85,7 +85,6 @@
       }
       
       .subLink {
-        
         display: block;
         text-decoration: none;
         text-wrap: nowrap;

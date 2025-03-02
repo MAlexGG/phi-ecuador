@@ -1,0 +1,45 @@
+.ctTabs{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.ctButtons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1px;
+}
+
+.hr{
+    border-bottom: 1px solid var(--main-color);
+    position: absolute;
+    width: 90vw;
+    top: 39px;
+}
+
+@media screen and (max-width: 576px) {
+    .ctTabs{
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        z-index: 1;
+        padding: 10px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .ctButtons{
+        flex-direction: column;
+        gap: 2px;
+    }
+    .hr{
+        display:  none;
+    }
+}
