@@ -21,12 +21,11 @@ export default function Home() {
       <Link href='/phi' className={styles.imgMain}>
         <Image 
           src={coloquio}
-          alt='Coloquio Geomateriales y Patrimonio arquitectónico en Ecuador'
+          alt='Red PHI - Ecuador'
           sizes="100vw"
           className={styles.imgMain}
         />
       </Link>
-      <Dates/>
       <SocialMedia/>
       <Link href={'/phi'} className={styles.aButton}>
         <Button img={icoGo} alt={'Ingresar a la web'}>Ingresar</Button>
