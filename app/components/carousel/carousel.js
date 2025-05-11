@@ -34,7 +34,7 @@ const prevSlide = () => {
       <div className={styles.ctCarouselImages} style={{ transform: `translateX(-${position}px`}}>
         {images.map((src, i) => (
             <div key={i} className={styles.ctCarouselImage}>
-              <img src={src} alt="imágenes del evnto del 2023" className={styles.carouselImage}/>
+              <img src={src} alt="imágenes del evento del 2023" className={styles.carouselImage}/>
             </div>
           ))
         }
