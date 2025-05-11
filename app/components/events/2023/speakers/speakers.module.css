@@ -1,3 +1,39 @@
-.ctMembers {
+.ctSpeakers {
     width: 100%;
+}
+
+.subtitle {
+    margin: 30px;
+}
+
+.ctImages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-bottom: 50px;
+}
+
+.ctImg {
+    width: auto;
+    height: 170px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.imgMember {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.txtNameMember{
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    .ctImages{
+        flex-direction: column;;
+    }
 }

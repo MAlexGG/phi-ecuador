@@ -32,7 +32,7 @@ export const team = [
         university: 'Universidad Católica Santiago de Guayaquil (UCSG)',
         name: 'Investigadora principal: Prof. Gilda San Andrés Lascano',
         description: 'Magíster en Arquitectura por la Universidad Católica de Santiago de Chile, especialización en Teoría y Crítica de la Arquitectura. Arquitecta por la Universidad Católica de Santiago de Guayaquil. Investigadora y docente titular, coordinadora del área Teoría e Historia en la FAD UCSG.',
-        link: '',
+        link: 'https://scholar.google.com/citations?user=1qhsg2UAAAAJ&hl=es&oi=ao',
         image: '/img/members/gilda.jpg'
     }
 
