@@ -18,7 +18,7 @@ export default function Speakers() {
         <div className={styles.ctImages}>
         {
           [2, 0, 1, 3].map(index => (
-          <div key={index}>
+          <div key={index} className={styles.ctMembers}>
                 <div className={styles.ctImg}>
                   <Image
                     src={team[index].image}

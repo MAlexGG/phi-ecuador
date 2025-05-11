@@ -16,10 +16,16 @@
 }
 
 .ctImg {
-    width: auto;
+    width: 150px;
     height: 170px;
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
+}
+.ctMembers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgMember {
