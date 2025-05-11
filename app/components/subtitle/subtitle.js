@@ -5,7 +5,7 @@ import styles from './subtitle.module.css'
 
 export default function Subtitle({ children, text, tabs="" }) {
   return (
-    <>
+    <div id="top">
       <Navbar/>
       <NavbarMobile/>
       <main className={`${styles.main} ${tabs ? styles[tabs]: ''}`}>
@@ -13,6 +13,6 @@ export default function Subtitle({ children, text, tabs="" }) {
         {children}
       </main>
       <Footer/>
-    </>
+    </div>
   )
 }

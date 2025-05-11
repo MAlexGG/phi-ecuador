@@ -6,7 +6,7 @@ export default function Up() {
 
 
   return (
-    <a href='#' className={styles.aUp}>
+    <a href='#top' className={styles.aUp}>
         <Image
           src={up}
           alt='botón que va al inicio de la página'

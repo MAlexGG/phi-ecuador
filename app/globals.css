@@ -20,6 +20,10 @@ body {
     overflow-x: hidden;
     background-color: var(--white-color);
     color: var(--white-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a {

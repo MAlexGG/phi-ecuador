@@ -29,8 +29,12 @@
 
 @media screen and (max-width: 576px) {
     .imgSchedule {
-        width: 95vw;
+        width: 100%;
         height: auto;
         margin: 5% 0%;
+    }
+
+    .ctTitle{
+        padding: 27% 0;
     }
 }

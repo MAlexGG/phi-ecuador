@@ -2,13 +2,13 @@
 
 import Subtitle from "@/app/components/subtitle/subtitle"
 import { useEffect, useState } from "react"
-import Schedule from "@/app/components/events/2023/schedule/schedule"
 import Carousel from "@/app/components/carousel/carousel"
 import { horizontal, vertical } from "../../data/events/2023/images"
 import Tabs from "@/app/components/tabs/tabs"
 import styles from "./page.module.css"
 import Description from "@/app/components/events/2024/description/description"
 import Speakers from "@/app/components/events/2024/speakers/speakers"
+import Schedule from "@/app/components/events/2024/schedule/schedule"
 
 export default function Events2023() {
 
