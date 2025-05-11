@@ -57,3 +57,9 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 810px) {
+  .ctCarousel{
+    height: 60vh;
+}
+}

@@ -5,7 +5,7 @@ import styles from './subtitle.module.css'
 
 export default function Subtitle({ children, text, tabs="" }) {
   return (
-    <div id="top">
+    <div id="top" className={styles.top}>
       <Navbar/>
       <NavbarMobile/>
       <main className={`${styles.main} ${tabs ? styles[tabs]: ''}`}>

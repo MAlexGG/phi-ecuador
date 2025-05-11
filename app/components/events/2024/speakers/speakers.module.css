@@ -1,7 +1,14 @@
 .ctSpeakers {
     width: 100%;
+    margin: 3% 0;
 }
 
 .subtitle {
     margin: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .ctSpeakers {
+        margin: 21% 0;
+    }
 }
