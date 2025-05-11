@@ -1,0 +1,36 @@
+.ctTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 100px;
+    width: 100%;
+}
+
+.ctTitle h3 {
+    font-size: 25px;
+    margin: 2%;
+}
+
+.ctTitle p span {
+    font-weight: 900;
+}
+
+@media screen and (max-width: 992px) {
+    .imgSchedule {
+        width: 700px;
+        height: auto;
+    }
+    .ctTitle {
+        padding: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .imgSchedule {
+        width: 95vw;
+        height: auto;
+        margin: 5% 0%;
+    }
+}

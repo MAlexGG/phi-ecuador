@@ -1,0 +1,13 @@
+@media screen and (max-width: 576px) {
+    .ctTabs {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .ctTabs.hidden {
+        transform: translateY(-50%) translateX(-100%);
+    }
+}
