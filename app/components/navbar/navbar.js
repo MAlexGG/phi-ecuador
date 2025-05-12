@@ -11,7 +11,6 @@ import { useState } from 'react'
 export default function Navbar() {
   const pathname = usePathname();
   const [openDropdown, setOpenDropdown] = useState(null);
-console.log(pathname)
   return (
     <header className={styles.ctHeader}>
       <Link href='/'>

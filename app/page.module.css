@@ -14,14 +14,20 @@
     margin: 2%;
 }
 
-.imgMain {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-}
-
 .aButton {
     display: none;
+}
+
+.ctImgMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgMain{
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 992px) {
@@ -29,10 +35,22 @@
         display: flex;
         margin: 5%;
     }
+    .imgMain{
+        animation: bounceYoyo 1.5s ease-in-out infinite;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .imgLogo {
         align-self: center;
     }
+}
+
+@keyframes bounceYoyo {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
 }

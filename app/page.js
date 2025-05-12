@@ -1,15 +1,13 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import coloquio from '../public/img/logos/mainImage.jpg'
+import main from '../public/img/logos/mainImage.jpg'
 import logo from '../public/img/logos/logo.png'
 import Universities from './components/universities/universities'
-import Dates from './components/dates/dates'
 import Link from 'next/link'
-import Button from './components/button/button'
-import icoGo from '../public/icons/go.svg'
 import SocialMedia from './components/socialMedia/socialMedia'
 
 export default function Home() {
+
   return (
     <main className={styles.main}>
       <Universities/>
@@ -18,18 +16,15 @@ export default function Home() {
         alt='logo de PHI Ecuador'
         className={styles.imgLogo}
       />
-      <Link href='/phi' className={styles.imgMain}>
+      <Link href='/phi' className={styles.ctImgMain}>
         <Image 
-          src={coloquio}
+          src={main}
           alt='Red PHI - Ecuador'
           sizes="100vw"
           className={styles.imgMain}
         />
       </Link>
       <SocialMedia/>
-      <Link href={'/phi'} className={styles.aButton}>
-        <Button img={icoGo} alt={'Ingresar a la web'}>Ingresar</Button>
-      </Link>
     </main>
   )
 }
