@@ -28,6 +28,14 @@
     justify-content: center;
 }
 
+.ctLinks{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
 .aLink {
     font-weight: 900;
     text-decoration: underline;
