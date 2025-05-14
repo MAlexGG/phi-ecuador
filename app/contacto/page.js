@@ -8,7 +8,7 @@ export default function Contact(){
             <Subtitle text='CONTACTO'>
                 <section>
                     <div className={styles.ctText}>
-                        <h4 className={styles.h4}>Perfil Miembro RedPHI – Ecuador</h4>
+                        <h4 className={styles.h4}>Perfil Miembro RedPHI–Ecuador</h4>
                         <ul>
                             <li>El postulante debe ser docente o investigador en temas relacionados a la RedPHI – Ecuador.</li>
                             <li>El postulante a la RedPHI – Ecuador debe estar vinculado a cualquier IES Institución de Educación Superior acreditada en el Ecuador.</li>
@@ -18,7 +18,7 @@ export default function Contact(){
                     </div>
 
                     <div className={styles.ctText}>
-                        <h4 className={styles.h4}>Perfil aliado con la RedPHI – Ecuador</h4>
+                        <h4 className={styles.h4}>Perfil aliado con la RedPHI–Ecuador</h4>
                         <ul>
                             <li>Puedes ser aliado o colaborador para actividades y temas específicos de interés común RedPHI – Ecuador.</li>
                             <li>Puedes ser una organización pública, privada, comunitaria, ONG, etc.</li>

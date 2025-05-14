@@ -27,7 +27,6 @@
 @media screen and (max-width: 576px) {
     .main {
         align-items: center;
-        margin-bottom: 50px;
     }
     .h2 {
         margin-top: 20px;
@@ -36,5 +35,11 @@
     }
     .tabs{
         margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .main {
+        margin-bottom: 50px;
     }
 }

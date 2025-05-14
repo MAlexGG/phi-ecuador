@@ -1,18 +1,12 @@
-import Image from 'next/image'
 import styles from './button.module.css'
 
-export default function Button({children, theme, img, alt}) {
+export default function Button({children, theme}) {
 
     let isDark = theme;
 
   return (
-    <button className={isDark ? `${styles.dark}` : `${styles.light}`}>
+    <button className={`${styles.button} ${isDark ? styles[`dark`] : styles['light']} `}>
         {children}
-        <Image
-            src={img}
-            alt={alt}
-            width={20}
-        />
     </button>
   )
 }

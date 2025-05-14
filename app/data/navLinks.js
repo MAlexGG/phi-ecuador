@@ -14,5 +14,9 @@ export const navLinks = [
         { name: '2023 Coloquio', href: '/eventos/2023' },
         { name: '2024 Capacitación', href: '/eventos/2024' }
       ]
-    }
+    },
+    {
+      name: 'Contacto',
+      href: '/contacto'
+    },
   ];
