@@ -1,0 +1,54 @@
+.ctForm{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 20px;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.ctForm section{
+    width: 50%;
+}
+
+.ctInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    padding-left: 20px;
+    outline: none;
+    background-color: var(--white-color);
+}
+
+.ctInput label span, .ctTextarea label span{
+    color: var(--red-color);
+}
+
+.ctTextarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.textarea{
+    width: 100%;
+    height: 355px;
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    outline: none;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
