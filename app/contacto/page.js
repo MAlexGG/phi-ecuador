@@ -1,4 +1,3 @@
-import Form from "../components/form/form";
 import Subtitle from "../components/subtitle/subtitle";
 import styles from './page.module.css'
 
@@ -25,13 +24,6 @@ export default function Contact(){
                             <li>Se debe formalizar el alcance de la participación del aliado mediante un acuerdo entre las partes.</li>
                         </ul>
                     </div>
-
-                    <div className={styles.ctText}>
-                        <h4 className={styles.h4}>Buzón de Contacto</h4>
-                        <p>Si tienes alguna duda o deseas más información, llena el siguiente formulario</p>
-                        <Form/>
-                    </div>
-                    
                 </section>
             </Subtitle>
         </>
